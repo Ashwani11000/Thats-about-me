@@ -1,4 +1,7 @@
 <?php
+include_once('../vendor/phpmailer/phpmailer/src/PHPMailer.php');
+include_once('../vendor/phpmailer/phpmailer/src/SMTP.php');
+include_once('../vendor/phpmailer/phpmailer/src/Exception.php');
 // Check for empty fields
 if(empty($_POST['name'])      ||
    empty($_POST['email'])     ||
