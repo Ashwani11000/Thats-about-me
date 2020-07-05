@@ -18,7 +18,7 @@ $(document).ready(function(){
     
     
     	 ageCount.innerHTML=YearDiff+' Years '+monthDiff+' Months '+daysDiff+' Days '+hoursDiff+
-    	' Hours '+minDiff+' Minutes '+secDiff+' Seconds';
+    	' Hours '+minDiff+' Minutes '+secDiff+' Seconds :D';
     
     },500);
     
