@@ -651,7 +651,15 @@ xclip
 
 
 
-
+.education-wrapper{
+        display: block;
+        position: relative;
+        margin-bottom: 30px;
+    }
+.education{
+    display: block;
+        position: relative;
+}
 
 
 .services-inner-box{
@@ -732,6 +740,8 @@ xclip
 .services-inner-box:hover p{
 	color: #ffffff;
 }
+
+
 
 
 /*------------------------------------------------------------------
